@@ -35,7 +35,8 @@ while(1)
 void push()
 {
     int c;
-    if(top==(MAXSIZE-1)){
+    if(top==(MAXSIZE-1))//condition to check whether a stack is full or not//
+    {
         printf("overflow");
         return;
     }
@@ -49,7 +50,8 @@ void push()
 }
 void pop()
 {
-    if(top==-1){
+    if(top==-1)//condition to check whether a stack is empty or not//
+    {
         printf("underflow");
     return;
     }
