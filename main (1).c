@@ -67,7 +67,7 @@ if(top==-1){
     return;
 }
 else{
-    printf("the elements of stack are");
+    printf("The elements of stack are");
     for(i=top;i>=0;i--)
         printf("%d\n",stack[i]);
     
