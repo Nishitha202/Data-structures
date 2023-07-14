@@ -63,7 +63,8 @@ void display()
 {
     int i;
 if(top==-1){
-    printf("underflow");
+    printf("underflow");//check whether stack is not empty 
+    
     return;
 }
 else{
